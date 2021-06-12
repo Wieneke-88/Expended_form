@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Wieneke Gerrits Illustraties </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header class="boxmodel-properties">
+        <h1 class="center-title"> Contact </h1>
+    </header>
+    <nav class="boxmodel-properties">
+        <ul class="navigation-links">
+            <li><a href="about.html"> About</a></li>
+            <li><a href="index.html"> Home </a></li>
+        </ul>
+    </nav>
+    <main class="boxmodel-properties">
+        <form name="contact" method="post" data-netlify="true">
+            <p>
+                <label>Naam: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label> E-mail: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label> Tel: <input type="telephone" name="telephone" /></label>
+            </p>
+            <p>
+                <label> Geboortedatum: <input type="date" name="date" /></label>
+            </p>
+            <p>
+                <label> Geslacht:
+                    <input type="radio" name="btn" /> Man
+                    <input type="radio" name="btn" /> Vrouw
+                </label>
+            </p>
+            <p>
+                <label> Favoriete keuken:
+                    <input type="checkbox" name="frans" /> Frans
+                    <input type="checkbox" name="italiaans" /> Italiaans
+                    <input type="checkbox" name="spaans" /> Spaans
+                    <input type="checkbox" name="arabisch" /> Arabisch
+                </label>
+            <p>
+                <label> Kleur: </label>
+            </p>
+            <p> <label> Biografie: <textarea rows="3" cols="30" name="message"></textarea></label>
+            </p>
+            <p>
+                <label> Upload je laatste recept: <input type="file" name="file" /> </label>
+            </p>
+            <p>
+                <label> URL naar je eigen website: <input type="url" name="url" /> </label>
+            </p>
+            <p>
+                <button type="reset"> Reset </button>
+            </p>
+            <p>
+                <button type="submit">Send</button>
+            </p>
+        </form>
+    </main>
+
+    <hr>
+
+    <footer class="boxmodel-properties">
+        Copyright <img width="10" src="images.png">
+    </footer>
+
+</body>
+
+</html>
